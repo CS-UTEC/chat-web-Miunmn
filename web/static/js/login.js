@@ -14,8 +14,8 @@ function login(){
 		contentType: 'application/json',
 		success: function (data){
 			console.log('Authenticated!');
-			alert('Autenticado, brother ');
-
+			alert('Autenticado');
+			window.location='../chat.html'
 		},
 		data: JSON.stringify(credentials) 
 		
